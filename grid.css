@@ -1,0 +1,15 @@
+
+header{
+  border: 1px solid grey;
+  text-align: center;
+  padding: 50px;
+}
+
+div{
+  display: grid;
+  display:inline;
+  display: flex;
+  border: 1px solid grey;
+  padding: 70px;
+  margin: 10px
+}
