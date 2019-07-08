@@ -1,0 +1,46 @@
+css
+.container{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+
+}
+
+header{
+  border: 1px solid grey;
+  text-align: center;
+}
+
+section{
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+}
+
+nav{
+  border-right: 1px solid grey;
+  flex-basis: 200px;
+}
+
+
+main{
+
+  text-align: center;
+}
+
+aside{
+  border-left: 15px;
+  flex-basis: 200px;
+}
+nav,aside{
+  border-left: 1px solid grey;
+  flex-basis: 200px;
+}
+
+
+.columnblock{
+  width: 100%;
+  column-gap: 60px;
+  column-count: 3;
+  column-width: 10px;
+}
