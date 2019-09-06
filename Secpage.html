@@ -18,7 +18,7 @@ html,body{
     text-align: center;
 }
 .content{
-    border:1px solid black;
+    border:1px solid lightgray;
     width:90%;
     height:90%;
     margin:24px auto;
@@ -31,7 +31,7 @@ html,body{
 
 .content > div {
     float:left;
-    color:black;
+    color:lightgray;
     width:33%;
     height:100%;
     padding: 10px;
@@ -54,13 +54,10 @@ html,body{
 
 </style>
 
-<script type="text/javascript">
-
-
-</script>
 </head>
 <body>
 
+<link rel="stylesheet"  href="Secpage.css">
 <h2>
 &#128054;이 향수를 추천합니다. &#128062&#128062;
 </h2>
@@ -69,17 +66,27 @@ html,body{
     <div class="content">
 
             <div>
-                <img src="LeftDog.png">
+                <img src="LeftDogText.png" width="200px height=auto">
+                <img style="transform: translatex(20px);" src="LeftDog.png" width="230px height=auto">
             </div>
 
             <div>
-                <img src="쁘띠 마망.jpg">
+                <figure class="snip1273">
+                  <img src="쁘띠 마망.jpg" width="300px height=auto" alt="향수 이미지 사진">
+                  <figcaption>
+                    <h2>쁘띠 마망</h2>
+                    <h2><p>불가리</p></h2>
+                    <h3><p>파우더리한 향과 포근한 코튼냄새 그리고 베이비 파우더 향</p></h3>
+                  </figcaption>
+                  <a href="#"></a>
+                </figure>
             </div>
 
             <div>
-                <img src="LeftDog.png">
+                <img style="transform: translatey(310px) translatex(-35px);" src="dogRight.png" width="120px height=auto">
             </div>
 
+            <script src="Secpage.js"></script>
 
     </div>
 
@@ -87,11 +94,9 @@ html,body{
 </div>
 
 <p align="center">
-        향수 회사:<br>
-    <br>향수 이름:<br>
-    <br>설명:<br>
+    <br>향수 매칭도:<br>
     <br>
-    <button onClick="location.href='file:///C:/Users/%ED%99%8D%ED%98%9C%EC%84%A0/Desktop/web/gecko/grid.html'">첫 화면으로 돌아가기</button>
+    <button onClick="location.href='./grid.html'">첫 화면으로 돌아가기</button>
 
 </p>
 <div style="float:right;">
